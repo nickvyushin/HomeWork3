@@ -55,7 +55,7 @@ public class HomeWork3Tests {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@href='/catalog--elektronika/54440']"))).click();
         //driver.findElement(By.xpath("//*[@href='/catalog--elektronika/54440']")).click();
         logger.info("Went to the 'Elektronika'");
-        driver.findElement(By.xpath("//*[@href='/catalog--smartfony/16814639/list?glfilter=16816262%3A16816264&hid=91491']")).click();
+        driver.findElement(By.cssSelector("._2qvOOvezty._2x2zBaVN-3._9qbcyI_fyS")).click();
         logger.info("Went to the 'Smartfoni'");
         //Отфильтровать список товаров: Samsung и Xiaomi
         driver.findElement(By.xpath("//*[@id='7893318_153061']/..")).click();
